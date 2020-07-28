@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    transition-duration: 1s;
+}
+
+.highlight {
+    color: red;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    background-color: lightgray;
+    color: white;
+    opacity: 0.5;
+}
+
+.button:hover {
+    opacity: .8;
+}
